@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="3D Su Arıtma Sistemleri – Filtre değişimi, filtre satışı, su yumuşatma cihazı ve arıtmalı sebil satışı. Temiz ve sağlıklı su için güvenilir çözümler." />
+  <title>3D Su Arıtma Sistemleri</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">💧</span>
+        <div class="logo-text">
+          <span class="logo-title">3D Su Arıtma</span>
+          <span class="logo-sub">Sistemleri</span>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobil menü -->
+    <nav class="nav-mobile" id="navMobile">
+      <a href="#hizmetler" onclick="closeMobileMenu()">Hizmetler</a>
+      <a href="#hakkimizda" onclick="closeMobileMenu()">Hakkımızda</a>
+      <a href="#iletisim" onclick="closeMobileMenu()">İletişim</a>
+    </nav>
+  </header>
+
+  <!-- ===== SLIDER ===== -->
+  <section class="slider-section">
+    <div class="slider-wrapper" id="sliderWrapper">
+
+      <div class="slide">
+        <div class="slide-placeholder">
+          <span class="slide-icon">🚰</span>
+          <p class="slide-label">Buraya fotoğraf ekleyin</p>
+          <p class="slide-hint">Önerilen: 1200×600 px</p>
+        </div>
+        <div class="slide-caption">
+          <h2>Temiz Su, Sağlıklı Yaşam</h2>
+          <p>Aileniz için en kaliteli su arıtma çözümleri</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-placeholder">
+          <span class="slide-icon">🔧</span>
+          <p class="slide-label">Buraya fotoğraf ekleyin</p>
+          <p class="slide-hint">Önerilen: 1200×600 px</p>
+        </div>
+        <div class="slide-caption">
+          <h2>Profesyonel Filtre Değişimi</h2>
+          <p>Yerinde hızlı ve güvenilir bakım hizmeti</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-placeholder">
+          <span class="slide-icon">💧</span>
+          <p class="slide-label">Buraya fotoğraf ekleyin</p>
+          <p class="slide-hint">Önerilen: 1200×600 px</p>
+        </div>
+        <div class="slide-caption">
+          <h2>Su Yumuşatma Sistemleri</h2>
+          <p>Kireçten arınmış, yumuşak su deneyimi</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-placeholder">
+          <span class="slide-icon">🏠</span>
+          <p class="slide-label">Buraya fotoğraf ekleyin</p>
+          <p class="slide-hint">Önerilen: 1200×600 px</p>
+        </div>
+        <div class="slide-caption">
+          <h2>Arıtmalı Sebil Çözümleri</h2>
+          <p>Ev ve iş yerinize özel arıtmalı sebil sistemleri</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Slider kontrolleri -->
+    <button class="slider-btn prev" id="sliderPrev" aria-label="Önceki">&#8249;</button>
+    <button class="slider-btn next" id="sliderNext" aria-label="Sonraki">&#8250;</button>
+    <div class="slider-dots" id="sliderDots"></div>
+  </section>
+
+  <!-- ===== HİZMETLER ===== -->
+  <section class="section hizmetler" id="hizmetler">
+    <div class="container">
+      <h2 class="section-title">Hizmetlerimiz</h2>
+      <p class="section-desc">Size ve ailenize en iyi su kalitesini sunmak için buradayız.</p>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>Filtre Değişimi</h3>
+          <p>Evinizde ya da iş yerinizde kullandığınız su arıtma cihazlarının filtrelerini yerinde değiştiriyoruz. Düzenli bakım ile cihazınız her zaman en iyi performansta çalışır.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🛒</div>
+          <h3>Filtre Satışı</h3>
+          <p>Tüm marka ve modellere uygun yedek filtreler stoğumuzda mevcuttur. Orijinal ve uyumlu filtre seçenekleriyle ihtiyacınıza en uygun ürünü sunuyoruz.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">💧</div>
+          <h3>Su Yumuşatma Cihazı</h3>
+          <p>Sert su sorununa son verin. Su yumuşatma sistemleri kireç birikimini önler; çamaşır makinenizi, bulaşık makinenizi ve tesisatınızı korur.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🚰</div>
+          <h3>Arıtmalı Sebil</h3>
+          <p>Ev ve ofis kullanımına uygun arıtmalı sebil sistemleri ile musluk başında temiz, lezzetli su içme keyfi. Kurulum ve sonrası bakım desteği dahildir.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HAKKIMIZDA ===== -->
+  <section class="section hakkimizda" id="hakkimizda">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Neden Biz?</h2>
+          <ul class="about-list">
+            <li>
+              <span class="check">✔</span>
+              <div>
+                <strong>Deneyimli Ekip</strong>
+                <p>Yıllarca süren sektör deneyimimizle her ihtiyaca uygun çözüm üretiyoruz.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check">✔</span>
+              <div>
+                <strong>Yerinde Servis</strong>
+                <p>Filtre değişimi ve kurulum için size geliyoruz; zahmet çekmenize gerek yok.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check">✔</span>
+              <div>
+                <strong>Uygun Fiyat</strong>
+                <p>Kaliteden ödün vermeden rekabetçi fiyatlarla hizmet veriyoruz.</p>
+              </div>
+            </li>
+            <li>
+              <span class="check">✔</span>
+              <div>
+                <strong>Satış Sonrası Destek</strong>
+                <p>Aldığınız ürün ya da hizmet sonrasında yanınızdayız, sorunlarınızı çözeriz.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="about-image">
+          <div class="about-placeholder">
+            <span>🏪</span>
+            <p>Dükkan fotoğrafı</p>
+            <span class="slide-hint">Önerilen: 600×500 px</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== İLETİŞİM ===== -->
+  <section class="section iletisim" id="iletisim">
+    <div class="container">
+      <h2 class="section-title">İletişim</h2>
+      <p class="section-desc">Sorularınız için bize ulaşın, en kısa sürede yardımcı olalım.</p>
+
+      <div class="contact-grid">
+
+        <div class="contact-card">
+          <div class="contact-icon">📞</div>
+          <h3>Telefon</h3>
+          <a href="tel:+905000000000" class="contact-link">0500 000 00 00</a>
+          <p class="contact-note">Haftaiçi 09:00 – 18:00</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <h3>Adres</h3>
+          <p class="contact-link">Örnek Mah. Su Cad.<br>No:1, İlçe / Şehir</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">📱</div>
+          <h3>WhatsApp</h3>
+          <a href="https://wa.me/905000000000" class="contact-link" target="_blank" rel="noopener">WhatsApp ile Yazın</a>
+          <p class="contact-note">Hızlı yanıt için tercih edin</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">⏰</div>
+          <h3>Çalışma Saatleri</h3>
+          <p class="contact-link">Pazartesi – Cumartesi<br>09:00 – 18:00</p>
+          <p class="contact-note">Pazar kapalı</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2024 3D Su Arıtma Sistemleri. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
