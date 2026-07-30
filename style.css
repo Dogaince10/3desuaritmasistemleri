@@ -335,14 +335,19 @@ img {
 }
 
 .services-grid {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.services-grid-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 
 .service-card {
-  flex: 0 0 calc(30% - 24px);
-  min-width: 320px;
   background: #fff;
   border: 2px solid var(--blue-light);
   border-radius: var(--radius);
