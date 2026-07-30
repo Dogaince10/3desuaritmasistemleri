@@ -197,8 +197,7 @@ img {
 
 .slide-img {
     width: 100%;
-    height: 500px;
-    object-fit: cover;
+    height: auto;
     display: block;
 }
 
