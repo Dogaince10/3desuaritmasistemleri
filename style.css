@@ -337,12 +337,12 @@ img {
 .services-grid {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 30px;
 }
 
 .service-card {
   flex: 0 0 calc(30% - 24px);
-  min-width: 250px;
+  min-width: 320px;
   background: #fff;
   border: 2px solid var(--blue-light);
   border-radius: var(--radius);
