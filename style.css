@@ -185,7 +185,7 @@ img {
 /* Taslak fotoğraf alanı */
 .slide-placeholder {
   width: 100%;
-  height: 380px;
+  height: 500px;
   background: linear-gradient(135deg, #b8d9f0 0%, #d0eaf8 60%, #e8f4fd 100%);
   display: flex;
   flex-direction: column;
@@ -197,7 +197,7 @@ img {
 
 .slide-img {
     width: 100%;
-    height: 380px;
+    height: 500px;
     object-fit: cover;
     display: block;
 }
